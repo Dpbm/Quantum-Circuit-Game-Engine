@@ -1,0 +1,11 @@
+name: quantum-game-engine-tests
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - pygame==2.5.0
+    - qiskit-terra==0.25.0
+    - numpy==1.23.5
+    - tox
