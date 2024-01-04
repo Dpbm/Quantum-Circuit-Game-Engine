@@ -3,3 +3,4 @@ dist
 *.egg-info/
 .pypirc
 __pycache__/
+.tox
